@@ -9,7 +9,7 @@ public class BoardDto {
     private String userId;
     private String boardTitle;
     private String boardContent;
-    private String BoardTime;
-    private int BoardHit;
-    private int BoardWatch;
+    private String boardTime;
+    private int boardHit;
+    private int boardWatch;
 }

@@ -4,4 +4,8 @@
 
 <mapper namespace="com.jpjg.Ji_Pi_Ji_Gi.board.Mapper.BoardMapper">
 
+    <insert id="writeBoard" parameterType="boardDto">
+        insert into board(board_user_id, board_title, board_content) values ('${userId}', '${boardTitle}', '${boardContent}')
+    </insert>
+
 </mapper>
